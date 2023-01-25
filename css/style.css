@@ -1,0 +1,105 @@
+/* header styles */
+.header-wraper {
+    display: flex;
+    justify-content: space-around;
+}
+.navigation-ul {
+    display: flex;
+    justify-content: space-around;
+    width: 294px;
+}
+.header-block {
+    background-color: #F6F8F9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.logo {
+    color: red;
+}
+.section-after-header {
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 66px
+
+}
+.trending-section {
+    width: 1160px;
+    margin: 0 auto;
+}
+.title {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.trendin-block {
+    display: flex;
+    width: 1160px;
+    justify-content: center;
+}
+.block-1 {
+    display: inline-block;
+    align-items: center;
+    background: #FFFFFF;
+    
+
+}
+.time-image {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.image-relative {
+    position: relative;
+    padding-bottom: 66px;
+}
+.image-title {
+    position: absolute;
+    top: 36px;
+    bottom: 306px;
+    left: 40px;
+    color: #FFFFFF;
+}
+.lorem-ipsum {
+    font-size: 13px;
+}
+
+.happening-now {
+    width: 1160px;
+    margin: 0 auto;
+  
+}
+.title2{
+    margin-top: 58px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.images-block{
+    display: flex;
+
+}
+.left-block {
+    width: 760px;
+}
+.right-block {
+    width: 360px;
+    margin-left: 40px;
+}
+.image-relative2{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.image-title2 {
+    position: absolute;
+    top: 194px;
+    bottom: 194px;
+    right: 172px;
+    left: 308px;
+    color: #FFFFFF;
+
+}
+.right-block-img1 {
+    margin-bottom: 102px;
+    
+}
