@@ -14,6 +14,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 50;
 }
 .logo {
     color: red;
@@ -56,7 +57,6 @@
 .image-title {
     position: absolute;
     top: 36px;
-    bottom: 306px;
     left: 40px;
     color: #FFFFFF;
 }
@@ -87,16 +87,21 @@
 }
 .image-relative2{
     position: relative;
+    width: 760px;
+    height: 430px;
     margin-bottom: 40px;
+
 }
 
 .image-title2 {
-    position: absolute;
-    top: 194px;
-    bottom: 194px;
-    right: 172px;
-    left: 308px;
+    width: 280px;
+    height: 16px;
     color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+  
 
 }
 .right-block-img1 {
